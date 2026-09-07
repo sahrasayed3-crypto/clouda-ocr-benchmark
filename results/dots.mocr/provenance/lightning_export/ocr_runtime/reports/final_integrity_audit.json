@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-08-31T16:16:22.946714+00:00",
+  "checks": {
+    "manifest_rows": 177,
+    "manifest_unique_ids": 177,
+    "manifest_duplicate_ids": 0,
+    "distorted_content_unique_hashes": 177,
+    "distorted_content_duplicate_hashes": 0,
+    "results_rows": 177,
+    "results_unique_ids": 177,
+    "results_duplicate_ids": 0,
+    "missing_result_ids": [],
+    "unknown_result_ids": [],
+    "successful": 169,
+    "failed": 8,
+    "wrong_model_ids": [],
+    "broken_references": [],
+    "asset_hash_mismatches": [],
+    "embedded_gt_mismatches": [],
+    "normalization_mismatches": [],
+    "metric_recomputation_mismatches": [],
+    "ground_truth_workspace_files": 100,
+    "ground_truth_referenced_unique": 82,
+    "archive_superseded_mentioned_by_current_reports": [],
+    "original_partial_sha256": "fc5bf552bec558f5f6c996886be4abf5283f181f461304828f1a4ccf422457f9",
+    "original_partial_preserved": true,
+    "results_sha256": "9abe67bde266e599d961a4b04088323dbeac1ee2d6556a00744d9797484ed54f",
+    "manifest_sha256": "2a499ed0268a5c583a1b174ef241e05affb9c4ba757593eb9ee3fc6f3e4fb893",
+    "status": "pass"
+  }
+}

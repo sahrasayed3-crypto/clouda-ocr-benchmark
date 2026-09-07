@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-08-31T16:27:52.869393+00:00",
+  "benchmark_status_rows": 177,
+  "unique_result_ids": 177,
+  "duplicate_result_ids": 0,
+  "successful": 169,
+  "failed": 8,
+  "manifest_rows": 177,
+  "manifest_unique_ids": 177,
+  "unknown_result_ids": [],
+  "missing_result_ids": [],
+  "forbidden_weight_cache_or_environment_files": [],
+  "source_images_or_pdfs_included": [],
+  "all_files_readable": true,
+  "gpu_compute_processes": [],
+  "status": "pass"
+}

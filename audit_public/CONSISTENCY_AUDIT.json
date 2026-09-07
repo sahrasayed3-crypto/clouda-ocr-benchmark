@@ -1,0 +1,729 @@
+{
+  "manifest_rows": 177,
+  "manifest_unique_ids": 177,
+  "manifest_duplicate_ids": 0,
+  "gt_missing": [],
+  "gt_hash_mismatches": [],
+  "unique_gt_files_referenced": 82,
+  "distorted_image_missing": [],
+  "distorted_image_hash_mismatches": [],
+  "source_datasets": {
+    "MohamedRashad/arabic-img2md|train|b259f4e285483107f1585960cfd62e17bdc6c712": 26,
+    "ahmedheakl/arocrbench_doclaynet|train|92853b44e9259cbdbbbb3cb84ae9ced036d58c3f": 4,
+    "ahmedheakl/arocrbench_hindawi|train|5693b901e43bb5c72b4b77e4a3efeadfd01739a8": 15,
+    "ahmedheakl/arocrbench_historicalbooks|train|cbe0684cfc878f281be6d6b11c22f41d32842c00": 11,
+    "ahmedheakl/arocrbench_historyar|train|4e8d71775498cb10b873453910a2819714b46463": 7,
+    "ahmedheakl/arocrbench_khattparagraph|train|d0e44472833d6de53ff23ca0cb1d36c77a213581": 8,
+    "ahmedheakl/arocrbench_tables|train|1fc7dbf1414f82f04c091087af31d30446bd1867": 10,
+    "calfa-ai/RASAM-1|train|0dd7531ae68fb0bfc5cb7b189955cb3002a1ec95": 11,
+    "calfa-ai/RASAM-2|train|dd04242a1f18e519df0944d19ae2d868e404d6e5": 11,
+    "calfa-ai/baybars|train|ce04cd0779386abf25ee24faf84518df33ed41b3": 7,
+    "calfa-ai/iskandar|train|8cd27a8a823b4bf7d5f119a3f94ec798fc792ab0": 9,
+    "calfa-ai/tarima|train|8ccf8adb3dec69f0eb5a54eede92fc0ce465509b": 15,
+    "craneset/arabic-ocr|train|c7df81cbef12277b46aa592bb0114636d642e6ad": 11,
+    "mohres/The_Arabic_E-Book_Corpus|train|7d26ca7c2041064a7f36f03ecb4c5c1dd1a15e1a": 32
+  },
+  "distinct_source_datasets": [
+    "MohamedRashad/arabic-img2md",
+    "ahmedheakl/arocrbench_doclaynet",
+    "ahmedheakl/arocrbench_hindawi",
+    "ahmedheakl/arocrbench_historicalbooks",
+    "ahmedheakl/arocrbench_historyar",
+    "ahmedheakl/arocrbench_khattparagraph",
+    "ahmedheakl/arocrbench_tables",
+    "calfa-ai/RASAM-1",
+    "calfa-ai/RASAM-2",
+    "calfa-ai/baybars",
+    "calfa-ai/iskandar",
+    "calfa-ai/tarima",
+    "craneset/arabic-ocr",
+    "mohres/The_Arabic_E-Book_Corpus"
+  ],
+  "benchmark_manifest_jsonl_rows": 177,
+  "license_notes_by_dataset": {
+    "MohamedRashad/arabic-img2md": {
+      "gpl-3.0": 26
+    },
+    "ahmedheakl/arocrbench_doclaynet": {
+      "unspecified": 4
+    },
+    "ahmedheakl/arocrbench_hindawi": {
+      "unspecified": 15
+    },
+    "ahmedheakl/arocrbench_historicalbooks": {
+      "unspecified": 11
+    },
+    "ahmedheakl/arocrbench_historyar": {
+      "unspecified": 7
+    },
+    "ahmedheakl/arocrbench_khattparagraph": {
+      "unspecified": 8
+    },
+    "ahmedheakl/arocrbench_tables": {
+      "unspecified": 10
+    },
+    "calfa-ai/RASAM-1": {
+      "apache-2.0": 11
+    },
+    "calfa-ai/RASAM-2": {
+      "apache-2.0": 11
+    },
+    "calfa-ai/baybars": {
+      "etalab-2.0": 7
+    },
+    "calfa-ai/iskandar": {
+      "etalab-2.0": 9
+    },
+    "calfa-ai/tarima": {
+      "apache-2.0": 15
+    },
+    "craneset/arabic-ocr": {
+      "mit": 11
+    },
+    "mohres/The_Arabic_E-Book_Corpus": {
+      "cc-by-4.0": 32
+    }
+  },
+  "csv_jsonl_id_mismatch": [],
+  "csv_jsonl_hash_mismatches": [],
+  "model_audit": {
+    "HunyuanOCR-1.5": {
+      "path": "results/HunyuanOCR-1.5/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 177,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 0.564666303999014,
+        "wer": 0.7195107724616108,
+        "normalized_arabic_cer": 0.3914971023431782
+      },
+      "stored_summary": {
+        "strict_cer": 0.564666303999014,
+        "normalized_arabic_cer": 0.39149710234317825,
+        "wer": 0.7195107724616104,
+        "extra_text_rate": 0.29543072978268364,
+        "missing_text_rate": 0.13434941615078247
+      },
+      "stored_samples": 177,
+      "stored_successful": 177
+    },
+    "MBZUAI/AIN-7B": {
+      "path": "results/MBZUAI_AIN-7B/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 177,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 0.7529046963507875,
+        "wer": 0.6439773681061527,
+        "normalized_arabic_cer": 0.8370283324995594
+      },
+      "stored_summary": {
+        "strict_cer": 0.7529046963507874,
+        "normalized_arabic_cer": 0.8370283324995594,
+        "wer": 0.6439773681061524,
+        "extra_text_rate": 0.39535165502457326,
+        "missing_text_rate": 0.24759810772680954
+      },
+      "stored_samples": 177,
+      "stored_successful": 177
+    },
+    "Qari OCR 0.4.0": {
+      "path": "results/Qari_OCR_0.4.0/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 177,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 1.4192405567042832,
+        "wer": 1.6383134564310837,
+        "normalized_arabic_cer": 1.0762598200883418
+      },
+      "stored_summary": {
+        "strict_cer": 1.419240556704283,
+        "normalized_arabic_cer": 1.0762598200883418,
+        "wer": 1.6383134564310828,
+        "extra_text_rate": 1.1668488754785702,
+        "missing_text_rate": 0.11762478265374501
+      },
+      "stored_samples": 177,
+      "stored_successful": 177
+    },
+    "Qwen3-VL-4B-Instruct": {
+      "path": "results/Qwen3-VL-4B-Instruct/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 177,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 2.0079401667932815,
+        "wer": 1.5295432343285742,
+        "normalized_arabic_cer": 1.28656702627353
+      },
+      "stored_summary": {
+        "strict_cer": 2.0079401667932824,
+        "normalized_arabic_cer": 1.28656702627353,
+        "wer": 1.5295432343285742,
+        "extra_text_rate": 1.6377193599509854,
+        "missing_text_rate": 0.08585926985112786
+      },
+      "stored_samples": 177,
+      "stored_successful": 177
+    },
+    "DeepSeek-OCR-2": {
+      "path": "results/DeepSeek-OCR-2/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 177,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 1.727660839068692,
+        "wer": 1.5498254809791352,
+        "normalized_arabic_cer": 1.486473469125326
+      },
+      "stored_summary": {
+        "strict_cer": 1.7276608390686927,
+        "normalized_arabic_cer": 1.486473469125326,
+        "wer": 1.5498254809791352,
+        "extra_text_rate": 1.2614413351755003,
+        "missing_text_rate": 0.17914264956279782
+      },
+      "stored_samples": 177,
+      "stored_successful": 177
+    },
+    "Arabic Nougat Large": {
+      "path": "results/Arabic_Nougat_Large/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 177,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 2.3914721538973307,
+        "wer": 1.876030865758898,
+        "normalized_arabic_cer": 2.2263407213309216
+      },
+      "stored_summary": {
+        "strict_cer": 2.3914721538973307,
+        "normalized_arabic_cer": 2.226340721330921,
+        "wer": 1.8760308657588975,
+        "extra_text_rate": 1.8585810666798819,
+        "missing_text_rate": 0.22850885916352034
+      },
+      "stored_samples": 177,
+      "stored_successful": 177
+    },
+    "dots.mocr": {
+      "path": "results/dots.mocr/results.jsonl",
+      "rows": 177,
+      "unique_ids": 177,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [],
+      "successes": 169,
+      "failures": 8,
+      "failure_ids": [
+        "dist_d81844ae32aab663",
+        "dist_8bcaa349fa14f63a",
+        "dist_34b97e5a4f2bf1b0",
+        "dist_48dc8a47e830a050",
+        "dist_230e8b6d9ab74c61",
+        "dist_208318d9d5970cf9",
+        "dist_7ffbb7c9291660a0",
+        "dist_48ca82ad05989502"
+      ],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 20.67619971064765,
+        "wer": 38.88446612936381,
+        "normalized_arabic_cer": 20.377487907975862
+      },
+      "stored_summary": {
+        "strict_cer": 20.67619971064765,
+        "normalized_arabic_cer": 20.377487907975862,
+        "wer": 38.88446612936381,
+        "extra_text_rate": 20.482435221409375,
+        "missing_text_rate": 0.07740465736117498
+      },
+      "stored_samples": 177,
+      "stored_successful": 169
+    },
+    "PaddleOCR-VL-1.6": {
+      "path": "results/PaddleOCR-VL-1.6/results.jsonl",
+      "rows": 1,
+      "unique_ids": 1,
+      "duplicate_ids": {},
+      "unknown_ids": [],
+      "missing_ids": [
+        "dist_00b5396e3c2f2616",
+        "dist_033f8766bce6a60e",
+        "dist_035d7671b45266be",
+        "dist_084add2efb187d36",
+        "dist_0baa1e5ce96840e2",
+        "dist_0c05bbbc5488e5f7",
+        "dist_0c866b39a5c00d81",
+        "dist_0e18242bc28dd996",
+        "dist_0e7f25b5ede8387a",
+        "dist_0ea747eb9ddc1721",
+        "dist_14a68aa4d4edd0b2",
+        "dist_1506e80c4b0d2427",
+        "dist_154bb6c32a7df689",
+        "dist_17cc3f21932b4c78",
+        "dist_195a5715b7f740a9",
+        "dist_197d6b7cd62f0e99",
+        "dist_208318d9d5970cf9",
+        "dist_209202aced8b9f00",
+        "dist_209fef3d1ebc4d1a",
+        "dist_230e8b6d9ab74c61",
+        "dist_24278ad2b62fc43f",
+        "dist_25c4ca6e652857ff",
+        "dist_278bc33dc00f5615",
+        "dist_2822391c4100c975",
+        "dist_2825472e1a33c89d",
+        "dist_2b2ffa5ab69772d4",
+        "dist_2b9eecf866d26ec3",
+        "dist_2ba835cb56dfabbf",
+        "dist_2d81d1a4372623bf",
+        "dist_2f0f9d09d23535ff",
+        "dist_3092e88abf40a83a",
+        "dist_32cac681cb8cfa40",
+        "dist_334bb643f71a8b15",
+        "dist_3380a91f74f0d92a",
+        "dist_33ef2fea9941b184",
+        "dist_34b97e5a4f2bf1b0",
+        "dist_3519aa126ee9aadd",
+        "dist_35aca835fbc76cd9",
+        "dist_35bf0456187ab15a",
+        "dist_3c27c998d245a8e7",
+        "dist_3d201717b81510f2",
+        "dist_3fa5e21f1a48a0be",
+        "dist_436ac0237cdcdbfa",
+        "dist_47852de68f0a35e3",
+        "dist_48ca82ad05989502",
+        "dist_48dc8a47e830a050",
+        "dist_493f92654c7a786c",
+        "dist_4ab1961707049a0f",
+        "dist_4ad67030107c0434",
+        "dist_4bb08c1b35aff61e",
+        "dist_4c265aa169cf1581",
+        "dist_4d04d2ed0cf27a7c",
+        "dist_4d1d42e7ac672747",
+        "dist_4ef9d46a31fb09b2",
+        "dist_51d58e6e236dcd74",
+        "dist_56aa5b782b287797",
+        "dist_59074c5f6aa64b08",
+        "dist_59b61bedd35be622",
+        "dist_5f0a76aa94ec6b12",
+        "dist_5f7eb816a16871fd",
+        "dist_639c5d7215003e5b",
+        "dist_647231df71a21443",
+        "dist_6678ba07b6d928d1",
+        "dist_676ce44dc8f746a3",
+        "dist_6a39dee5e82182c6",
+        "dist_6c23f887c352bdba",
+        "dist_6d7cd02ae6250fb6",
+        "dist_6f35b0a2736e7c25",
+        "dist_6f8a10ebc5fab357",
+        "dist_6fff6848fda90a9d",
+        "dist_729d2a4a45866e0b",
+        "dist_7388976f99c0123b",
+        "dist_7544e0a7213cb78b",
+        "dist_76b5dc4a775c7562",
+        "dist_77098089e86cc49d",
+        "dist_77ca6273e7dbe50f",
+        "dist_7a00641622c00848",
+        "dist_7a6c3aeeeb602e68",
+        "dist_7b88ffdd6d81f6b1",
+        "dist_7c0579f7859b40e2",
+        "dist_7c8b0600c11615bc",
+        "dist_7d79da4af4134bc7",
+        "dist_7ffbb7c9291660a0",
+        "dist_80e9b86c7bab031c",
+        "dist_81fc571c6b770658",
+        "dist_85645a47fbcd4a17",
+        "dist_8577d0eb1449cbdc",
+        "dist_87e5800e4970d023",
+        "dist_8963c3872ede911b",
+        "dist_8b647513b8a11360",
+        "dist_8bcaa349fa14f63a",
+        "dist_8d1d8fcc002efd40",
+        "dist_8d2327fa0a046fa2",
+        "dist_8d409a5aaa683048",
+        "dist_8e4dfdb0cf014fab",
+        "dist_8fc3e5ac85004989",
+        "dist_9092d54abd6459ae",
+        "dist_95e0d416a18260b4",
+        "dist_96cdee43f74680a4",
+        "dist_970711469d55d4be",
+        "dist_975457a46b52ec18",
+        "dist_99d99d8dd1094008",
+        "dist_99ee522573a6ffcc",
+        "dist_9b86d75d76752479",
+        "dist_9ce6cd54119cc24e",
+        "dist_9d729a67accfffe3",
+        "dist_9ef29038a70a01b5",
+        "dist_9fd54ffdbebbf9e2",
+        "dist_9fe6d2c99ddda577",
+        "dist_a117414513a7ac2c",
+        "dist_a2e6646527859cc9",
+        "dist_a3de949b253710bc",
+        "dist_a411d7bc07b65f5e",
+        "dist_a65adc130f4620a6",
+        "dist_a66f0705537ab05b",
+        "dist_a6aa584f1f563af1",
+        "dist_a6de1c456d2fe1c7",
+        "dist_a733bdc5670dea6f",
+        "dist_a77c42d15ad5ed3f",
+        "dist_a80c0de9bb23748a",
+        "dist_a849595d065dabb6",
+        "dist_a9aa4238ed838c7a",
+        "dist_aa62db315d05ab96",
+        "dist_aa68f6306453f40d",
+        "dist_aba301438b699cd8",
+        "dist_ad1006a0f977266b",
+        "dist_ae59acc6ae533002",
+        "dist_b0e3aad1fa20ae94",
+        "dist_b1a7e7bd5f4cc22c",
+        "dist_b30b9a0bb8fd6030",
+        "dist_b30c74fa8514a77a",
+        "dist_b619ce11ebbfb44b",
+        "dist_b6c0707da478e4e4",
+        "dist_b71a399f97e38a43",
+        "dist_b7936cf3eb5b461d",
+        "dist_b831ac2aeed3882c",
+        "dist_b85f0212281d7066",
+        "dist_bca0fef5eb5434b1",
+        "dist_c0e6db2baa353d95",
+        "dist_c4cd49fedca675f6",
+        "dist_c7fd8f1223f18ef6",
+        "dist_c9d33868d72886b6",
+        "dist_cbbb9ceb002dbfbd",
+        "dist_cc0b59fbbf260b74",
+        "dist_ccf6347f9a1acb4d",
+        "dist_cfbb04d92a4c1d1a",
+        "dist_d343e3e07de58530",
+        "dist_d6c44a17ddd4d4e3",
+        "dist_d79c5445b55909aa",
+        "dist_d81844ae32aab663",
+        "dist_d8dc97b4cf17a670",
+        "dist_dae4da6109c2681f",
+        "dist_dc766d973a2a0f31",
+        "dist_dd876b1586be2412",
+        "dist_dd893602456c12af",
+        "dist_de59ccc5709ff25b",
+        "dist_dea9283575da80cd",
+        "dist_e27a0f6c6b9adbea",
+        "dist_e363e7af388af2bf",
+        "dist_e3f542e1b39b79be",
+        "dist_e61e905caae83169",
+        "dist_e929d5935b7d6a17",
+        "dist_e9e844c03ed4df24",
+        "dist_e9f62a976df86b0e",
+        "dist_eae2fb92722582c5",
+        "dist_ec5b8eed91673c91",
+        "dist_ef204b39e82dd389",
+        "dist_f15370acb8f8b631",
+        "dist_f1c56a73b1c8186c",
+        "dist_f1c6ffc21d06cc08",
+        "dist_f61569f0ace1e3ad",
+        "dist_f858e4da71691130",
+        "dist_f92f15fb365aaabf",
+        "dist_fe3e5d48bcf3b381",
+        "dist_fe77e3f44caeb643",
+        "dist_fff4dc4b3f86b385"
+      ],
+      "successes": 1,
+      "failures": 0,
+      "failure_ids": [],
+      "stored_metrics_diffs": [],
+      "recomputed": {
+        "strict_cer": 2.2934782608695654,
+        "wer": 8.342857142857143,
+        "normalized_arabic_cer": 2.2456521739130433
+      },
+      "stored_summary": null,
+      "stored_samples": null,
+      "stored_successful": null
+    }
+  },
+  "scored_models": [
+    "HunyuanOCR-1.5",
+    "MBZUAI/AIN-7B",
+    "Qari OCR 0.4.0",
+    "Qwen3-VL-4B-Instruct",
+    "DeepSeek-OCR-2",
+    "Arabic Nougat Large",
+    "dots.mocr"
+  ],
+  "common_subset_size": 169,
+  "common_subset_recomputed": {
+    "HunyuanOCR-1.5": {
+      "samples": 169,
+      "normalized_arabic_cer": 0.3720448850316035,
+      "wer": 0.7067262725386889,
+      "strict_cer": 0.5473886220151881
+    },
+    "MBZUAI/AIN-7B": {
+      "samples": 169,
+      "normalized_arabic_cer": 0.8430218360597481,
+      "wer": 0.6305054599184473,
+      "strict_cer": 0.7490661831783614
+    },
+    "Qari OCR 0.4.0": {
+      "samples": 169,
+      "normalized_arabic_cer": 1.086816720885646,
+      "wer": 1.6677687003534343,
+      "strict_cer": 1.4413008715143603
+    },
+    "Qwen3-VL-4B-Instruct": {
+      "samples": 169,
+      "normalized_arabic_cer": 1.0263054112347088,
+      "wer": 1.4739538467171913,
+      "strict_cer": 1.6919504855422098
+    },
+    "DeepSeek-OCR-2": {
+      "samples": 169,
+      "normalized_arabic_cer": 1.414038617023106,
+      "wer": 1.507213669427852,
+      "strict_cer": 1.6508640478710892
+    },
+    "Arabic Nougat Large": {
+      "samples": 169,
+      "normalized_arabic_cer": 1.2010648178592875,
+      "wer": 1.4185986835801134,
+      "strict_cer": 1.2948882457714188
+    },
+    "dots.mocr": {
+      "samples": 169,
+      "normalized_arabic_cer": 20.377487907975862,
+      "wer": 38.88446612936381,
+      "strict_cer": 20.67619971064765
+    }
+  },
+  "dots_lightning_export": {
+    "entries": 45,
+    "verified_ok": 7,
+    "mismatches": [
+      [
+        "ocr_benchmark/manifests/benchmark_manifest.jsonl",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/NOTICE",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/README.md",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/chat_template.json",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/config.json",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/configuration_dots.py",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/dots.mocr LICENSE AGREEMENT",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/generation_config.json",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/modeling_dots_ocr.py",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/modeling_dots_vision.py",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/preprocessor_config.json",
+        "MISSING"
+      ],
+      [
+        "ocr_models/DotsMOCR/tokenizer_config.json",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/RUNBOOK.md",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/adapters/__init__.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/adapters/base.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/adapters/chat_vl.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/adapters/dots_mocr.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/benchmark.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/configs/environments.yaml",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/configs/locks/dots_mocr.freeze.txt",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/configs/models.yaml",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/configs/prompts.yaml",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/outputs/dots_mocr/attempts.jsonl",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/outputs/dots_mocr/inference.log",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/outputs/dots_mocr/progress.json",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/outputs/dots_mocr/results.jsonl",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/outputs/dots_mocr/summary.json",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/outputs/dots_mocr_native_fa2_96gb_20260827/results.jsonl",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/reports/dots_mocr_report.json",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/reports/dots_mocr_report.md",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/reports/final_consolidated_benchmark.json",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/reports/final_consolidated_benchmark.md",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/runtime/__init__.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/runtime/metrics.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/runtime/normalization.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/runtime/runner.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/scripts/evaluate_results.py",
+        "MISSING"
+      ],
+      [
+        "ocr_runtime/tests/test_runner.py",
+        "MISSING"
+      ]
+    ]
+  },
+  "dots_model_revisions_in_results": [],
+  "paddle_smoke_summary": {
+    "samples": 1,
+    "successful": 1,
+    "failures": 0,
+    "mean_metrics": {
+      "strict_cer": 2.2934782608695654,
+      "normalized_arabic_cer": 2.2456521739130433,
+      "wer": 8.342857142857143,
+      "extra_text_rate": 1.6978260869565218,
+      "missing_text_rate": 0.0
+    },
+    "mean_timings_seconds": {
+      "preprocessing_time": 0.11387420199753251,
+      "inference_time": 134.21901078600058,
+      "postprocessing_time": 0.00134030000117491,
+      "total_time": 134.3342252879993
+    },
+    "hardware": [
+      {
+        "gpu_model": "NVIDIA L4",
+        "gpu_vram_gb": 22.494
+      }
+    ],
+    "speed_comparison_warning": "Do not compare timing across different GPU models."
+  },
+  "final_results_csv_vs_recomputed_diffs": [],
+  "any_stored_metric_diffs": {
+    "HunyuanOCR-1.5": 0,
+    "MBZUAI/AIN-7B": 0,
+    "Qari OCR 0.4.0": 0,
+    "Qwen3-VL-4B-Instruct": 0,
+    "DeepSeek-OCR-2": 0,
+    "Arabic Nougat Large": 0,
+    "dots.mocr": 0,
+    "PaddleOCR-VL-1.6": 0
+  },
+  "sanitization_note": "Public-release consistency audit. Source file paths are relative to the canonical benchmark workspace; ground-truth release gating and GT-field stripping are documented in SANITIZATION_REPORT.md."
+}

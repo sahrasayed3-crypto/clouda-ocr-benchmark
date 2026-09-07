@@ -1,0 +1,45 @@
+relative_path,size_bytes,sha256,purpose
+README_EXPORT.md,6280,308488a616c70f001cce2795adc3f43fd7aeb0fae2e3ffd02236be5c04f0509f,"Export overview, benchmark metrics, copied-source map, exclusions, and safe merge warning."
+metadata/export_verification.json,465,fc5b7771e5a8099bb9c53858d2ccff9f700a9e199fe82f6e900bc9753fb3159b,"Pre-package content, count, exclusion, readability, and GPU-process verification."
+metadata/hardware.json,323,ba1ba1ab08d43a266f1e65c67cac3cf35d11143245bcfd50bb03762047d1186c,Export-time hardware provenance and confirmation of zero active GPU compute processes.
+metadata/inference_environment.freeze.txt,3372,0b02e7befba9965110c8b9decefb5d324e6508fc683cd426f44952cc66e872e4,Actual recovered working inference-environment package snapshot.
+metadata/model_revision.json,2107,c96bc000c8f506daead39939692b42f61b467369fd66104e660f645e01b75b33,"Export-generated model revision, configuration hashes, actual runtime, and compatibility note."
+ocr_benchmark/manifests/benchmark_manifest.jsonl,314046,2a499ed0268a5c583a1b174ef241e05affb9c4ba757593eb9ee3fc6f3e4fb893,Exact canonical 177-sample manifest used for inference and evaluation.
+ocr_models/DotsMOCR/NOTICE,24331,73dbd28e80482a61e5df0178185b70dc0d777ab563cee51a0c59caa24e9120b1,Upstream notices.
+ocr_models/DotsMOCR/README.md,25262,381645b2bd63c2adff9d0c266f79e86b25657394c48c35e68551f1da73178259,Upstream model documentation.
+ocr_models/DotsMOCR/chat_template.json,1147,c8d629ba2b3133376f1e64b980f82438945741fba5334db768afb281af93c4a9,Native multimodal chat template.
+ocr_models/DotsMOCR/config.json,1474,41d5c9aad72c730bb97062cab7a59cdb1d427eeec0b7a6e2f95e1ee72ad3b498,Model architecture and vision configuration metadata; no weights.
+ocr_models/DotsMOCR/configuration_dots.py,3150,aa85add6cdaedfd947d25b850410de4506fc299dc55140d0cc5352c9737151fe,Revision-specific remote configuration and processor class.
+ocr_models/DotsMOCR/dots.mocr LICENSE AGREEMENT,15538,6ee9cba1899c5b8b4006ccd35849ec3e4de3971d3302e88a0d64452449edf000,Upstream model license agreement.
+ocr_models/DotsMOCR/generation_config.json,86,d9ca5bd51bbf3b3b2b418f2b2d296cb4286ef2f02dc76dd7361d82ffd9d4e7ca,Model generation defaults metadata.
+ocr_models/DotsMOCR/modeling_dots_ocr.py,4981,274b5bfa35f624f15001da70414e733b89f5cb44b5453d80023bff26a68d0135,"Revision-specific OCR model code, excluding tensor weights."
+ocr_models/DotsMOCR/modeling_dots_vision.py,14890,f22d6251a05a03c7510d329ba1be9e959438cd54b32204eb51ccb1b56392a96f,"Revision-specific vision model code, excluding tensor weights."
+ocr_models/DotsMOCR/preprocessor_config.json,432,fec8b3187ab0ae340f6d0b1f6f892a53c63b73b328836c83dd7bff1d5bc4c79a,Native image preprocessing pixel and patch configuration.
+ocr_models/DotsMOCR/tokenizer_config.json,9310,4f09a26dd6b20c82e9678d96b7363a58a778a948a21261d3315a949d47ed4cf4,Tokenizer and chat-template metadata; tokenizer vocabulary is intentionally excluded.
+ocr_runtime/RUNBOOK.md,6469,32babb73665e342f54197743f7f5ac512e716f2c4c4bad199f2340f3da074116,Original model-specific benchmark runbook.
+ocr_runtime/adapters/__init__.py,1294,010362ea8aba4f8517ae86bac217e1b0a9c2ae7fae05f58f78fef376e851e7e4,Adapter registry and dots.mocr model-path wiring.
+ocr_runtime/adapters/base.py,1761,50101b36afdadfefe5448c34729be98819bc7438539b8212afd551afbb02eed6,Inference request/result schema and base adapter behavior.
+ocr_runtime/adapters/chat_vl.py,3013,61986a987f4d7181e418ae1d8c90d62ad6d4866e8b2c12f2485580de0a62ab66,Shared native Transformers VLM loading and preprocessing behavior.
+ocr_runtime/adapters/dots_mocr.py,2455,1a11da2af16c0fd311434a31af3e8e639273f6127315f380c002dfb6eaa7031f,dots.mocr-specific native preprocessing and generation adapter.
+ocr_runtime/benchmark.py,4947,ff51bbecafba9abc875fc027bf68681007f801b292df92c5baec21eae2d29d70,Unified benchmark CLI used for page inference and checkpointing.
+ocr_runtime/configs/environments.yaml,1732,eba7f50772ed7a9ae77d03312be5e1e17fc70aa8f18c2594a53fc8934f0f070d,Recorded environment intent and package families.
+ocr_runtime/configs/locks/dots_mocr.freeze.txt,1213,6f7a4c8de3b2e3f04096af2965d02024036a99ed3dd733bd95c02097495c5cdb,Later lock-matching environment specification retained for audit; progress.json documents its processor incompatibility.
+ocr_runtime/configs/models.yaml,3031,9ab9811b2af6730887a4cc3f7428396c22439105f7eaca61d8f07b3b474e2c14,"Canonical model, preprocessing, dtype, attention, and generation configuration."
+ocr_runtime/configs/prompts.yaml,807,ce28698157b177c2b2cd2ed00cee7d132a3946b2591a92e3ee97978b329bf3e2,Exact OCR/layout prompt definitions.
+ocr_runtime/outputs/dots_mocr/attempts.jsonl,2876739,8a6e2e3048282be45544e2268d241197f603abc3b8f246ee2e1b8a1b020080bf,"Complete retained inference-attempt ledger, including retries."
+ocr_runtime/outputs/dots_mocr/inference.log,6236,4f7f52af82286694080afbb6edcbb81392a2208ee17c03184335b3d70a6cc388,"Inference startup, compatibility failure, and runtime warning log."
+ocr_runtime/outputs/dots_mocr/progress.json,3934,3a8992f0fcb864e847647247dd64a095931c67e39520aed87946015fd496819a,"Run configuration, model revision, counts, hashes, timing, and eight-page failure metadata."
+ocr_runtime/outputs/dots_mocr/results.jsonl,2856249,9abe67bde266e599d961a4b04088323dbeac1ee2d6556a00744d9797484ed54f,Canonical 177-row dots.mocr result/status file with per-page metrics.
+ocr_runtime/outputs/dots_mocr/summary.json,707,4887849c1ef4b77a0d60ebf50a3367e7cfc03e26e05f7f7c34f1e1eaaf19f4e1,Canonical aggregate evaluation summary.
+ocr_runtime/outputs/dots_mocr_native_fa2_96gb_20260827/results.jsonl,1035066,fc5bf552bec558f5f6c996886be4abf5283f181f461304828f1a4ccf422457f9,Immutable 30-row starting partial used as provenance; not a canonical final result file.
+ocr_runtime/reports/dots_mocr_report.json,9209,b568557444a52cc7ad74cd12f62226a06f66b251bdc252741d699c36ef5fbd2f,"Structured dots.mocr metrics, categories, ranking, and failure details."
+ocr_runtime/reports/dots_mocr_report.md,998,1025af1e3adc92b744ad870ed8d838449c3400c6ce0e22b8362c9ca2c1baab9f,Human-readable dots.mocr benchmark report.
+ocr_runtime/reports/final_consolidated_benchmark.json,16554,d791ff6456f9eeab20671cafc7de1f72a380bac990ffbb37be7c301aa1e24d82,Structured consolidated benchmark comparison and common-subset ranking.
+ocr_runtime/reports/final_consolidated_benchmark.md,820,b342dd374412d0d54faee2d849cb7e52c2cc4a162253df48771fe92879709dbe,Human-readable consolidated benchmark comparison.
+ocr_runtime/reports/final_integrity_audit.json,1129,ab8cf3412475dcb679f5e82f99b39d54c29482e56c943a03de585bddb1af393f,"Final reference, hash, ID, GT, normalization, and metric integrity audit."
+ocr_runtime/runtime/__init__.py,67,8c5da7825fe6dd4ea12244f0acbb5bbd055c15926ae03285c079668ec49f6bd4,Runtime package marker.
+ocr_runtime/runtime/metrics.py,2187,293577757df6b04d5db3d85c2c8d9bcb147b0347d58651e8c804cedeee48d9a4,"Canonical CER, normalized Arabic CER, WER, and edit accounting."
+ocr_runtime/runtime/normalization.py,520,5ae5789871018b08a2eb58451067c771023592c8a4eefa189c4c4379ef93231b,Canonical deterministic Arabic normalization rules.
+ocr_runtime/runtime/runner.py,2452,4a1136109937052ef2981a6bd923fe3a99c51c12f3338c786bda117db390834d,"Manifest selection, resumability validation, and canonical result schema."
+ocr_runtime/scripts/evaluate_results.py,1671,9919c7d3cfda0ed5389608ab562b8bf1ced1ee4cdde2133990ced79e78040b28,Canonical aggregate evaluator.
+ocr_runtime/tests/test_runner.py,724,8a60062a7deefcc66d27711b559e873a56809bf3f0bf69e8fe909276f0cc1016,Regression test ensuring empty OCR rows remain retryable.

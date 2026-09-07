@@ -1,0 +1,25 @@
+{
+  "samples": 177,
+  "successful": 177,
+  "failures": 0,
+  "mean_metrics": {
+    "strict_cer": 0.7529046963507874,
+    "normalized_arabic_cer": 0.8370283324995594,
+    "wer": 0.6439773681061524,
+    "extra_text_rate": 0.39535165502457326,
+    "missing_text_rate": 0.24759810772680954
+  },
+  "mean_timings_seconds": {
+    "preprocessing_time": 0.15611872825988707,
+    "inference_time": 7.43393179810733,
+    "postprocessing_time": 0.0002934601864421765,
+    "total_time": 7.590343986553659
+  },
+  "hardware": [
+    {
+      "gpu_model": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "gpu_vram_gb": 95.6
+    }
+  ],
+  "speed_comparison_warning": "Do not compare timing across different GPU models."
+}

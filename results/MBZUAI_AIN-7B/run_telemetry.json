@@ -1,0 +1,1602 @@
+{
+  "selected_batch_size": 1,
+  "wall_seconds": 1894.3040812690006,
+  "batches": [
+    {
+      "batch": 0,
+      "pages": 1,
+      "wall_seconds": 28.803812557999663,
+      "pages_per_minute": 2.0830575771586957,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 1,
+      "pages": 1,
+      "wall_seconds": 26.89456131199995,
+      "pages_per_minute": 2.2309343254923775,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 2,
+      "pages": 1,
+      "wall_seconds": 27.987312217999715,
+      "pages_per_minute": 2.143828586776965,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 3,
+      "pages": 1,
+      "wall_seconds": 23.150703180000164,
+      "pages_per_minute": 2.591713933416669,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 4,
+      "pages": 1,
+      "wall_seconds": 23.530692375999934,
+      "pages_per_minute": 2.549861221304174,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 5,
+      "pages": 1,
+      "wall_seconds": 28.706470664000335,
+      "pages_per_minute": 2.0901210985592757,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 6,
+      "pages": 1,
+      "wall_seconds": 5.8536193990003085,
+      "pages_per_minute": 10.250068532000373,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 7,
+      "pages": 1,
+      "wall_seconds": 22.948438031000023,
+      "pages_per_minute": 2.6145570308074415,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 8,
+      "pages": 1,
+      "wall_seconds": 6.165076465999846,
+      "pages_per_minute": 9.732239385982906,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 9,
+      "pages": 1,
+      "wall_seconds": 24.999501446000068,
+      "pages_per_minute": 2.400047862138468,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 10,
+      "pages": 1,
+      "wall_seconds": 21.921907905999888,
+      "pages_per_minute": 2.736988051280809,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 11,
+      "pages": 1,
+      "wall_seconds": 1.3806918590003079,
+      "pages_per_minute": 43.45647409223018,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 12,
+      "pages": 1,
+      "wall_seconds": 1.3293656670002747,
+      "pages_per_minute": 45.1343084069491,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 13,
+      "pages": 1,
+      "wall_seconds": 1.332544425999913,
+      "pages_per_minute": 45.02664138569134,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 14,
+      "pages": 1,
+      "wall_seconds": 0.855730757999936,
+      "pages_per_minute": 70.11551172968879,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 15,
+      "pages": 1,
+      "wall_seconds": 0.9916230260000702,
+      "pages_per_minute": 60.50686443014863,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 16,
+      "pages": 1,
+      "wall_seconds": 0.974509596000189,
+      "pages_per_minute": 61.56942963544544,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 17,
+      "pages": 1,
+      "wall_seconds": 1.0072045940000862,
+      "pages_per_minute": 59.570816453201026,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 18,
+      "pages": 1,
+      "wall_seconds": 0.9381774570001653,
+      "pages_per_minute": 63.953785664229,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 19,
+      "pages": 1,
+      "wall_seconds": 1.5057969220001723,
+      "pages_per_minute": 39.84601052331885,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 20,
+      "pages": 1,
+      "wall_seconds": 0.9389467970004262,
+      "pages_per_minute": 63.901384180314494,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 21,
+      "pages": 1,
+      "wall_seconds": 8.14533603899963,
+      "pages_per_minute": 7.366178597509269,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 22,
+      "pages": 1,
+      "wall_seconds": 1.5521549459999733,
+      "pages_per_minute": 38.655934547401195,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 23,
+      "pages": 1,
+      "wall_seconds": 7.811392297999646,
+      "pages_per_minute": 7.681089069789121,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 24,
+      "pages": 1,
+      "wall_seconds": 8.948109051999836,
+      "pages_per_minute": 6.70532731008575,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 25,
+      "pages": 1,
+      "wall_seconds": 1.0017809290002333,
+      "pages_per_minute": 59.893334224159524,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 26,
+      "pages": 1,
+      "wall_seconds": 1.5484670870000627,
+      "pages_per_minute": 38.747998264684824,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 27,
+      "pages": 1,
+      "wall_seconds": 2.054974399999992,
+      "pages_per_minute": 29.19744401682096,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 28,
+      "pages": 1,
+      "wall_seconds": 7.765406742000323,
+      "pages_per_minute": 7.72657530937579,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 29,
+      "pages": 1,
+      "wall_seconds": 1.557084679000127,
+      "pages_per_minute": 38.53354978646932,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 30,
+      "pages": 1,
+      "wall_seconds": 29.50672997899983,
+      "pages_per_minute": 2.0334344077673965,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 31,
+      "pages": 1,
+      "wall_seconds": 22.43371183699992,
+      "pages_per_minute": 2.674546255918381,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 32,
+      "pages": 1,
+      "wall_seconds": 33.60837118099971,
+      "pages_per_minute": 1.7852694995799332,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 33,
+      "pages": 1,
+      "wall_seconds": 8.654637079000167,
+      "pages_per_minute": 6.932699713727516,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 34,
+      "pages": 1,
+      "wall_seconds": 25.37207156500017,
+      "pages_per_minute": 2.364804933104783,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 35,
+      "pages": 1,
+      "wall_seconds": 0.5170696010000029,
+      "pages_per_minute": 116.03853694736864,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 36,
+      "pages": 1,
+      "wall_seconds": 13.902644245999909,
+      "pages_per_minute": 4.315725766863617,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 37,
+      "pages": 1,
+      "wall_seconds": 21.543705992000014,
+      "pages_per_minute": 2.785036150339234,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 38,
+      "pages": 1,
+      "wall_seconds": 20.701461263000056,
+      "pages_per_minute": 2.8983461233839876,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 39,
+      "pages": 1,
+      "wall_seconds": 9.197961990000294,
+      "pages_per_minute": 6.523184164625807,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 40,
+      "pages": 1,
+      "wall_seconds": 19.39119163500027,
+      "pages_per_minute": 3.094188388696163,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 41,
+      "pages": 1,
+      "wall_seconds": 0.6584535150000193,
+      "pages_per_minute": 91.12260567095346,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 42,
+      "pages": 1,
+      "wall_seconds": 14.808385544999965,
+      "pages_per_minute": 4.051758364723218,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 43,
+      "pages": 1,
+      "wall_seconds": 21.053723243999684,
+      "pages_per_minute": 2.8498522235063586,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 44,
+      "pages": 1,
+      "wall_seconds": 8.650789071000418,
+      "pages_per_minute": 6.93578348836811,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 45,
+      "pages": 1,
+      "wall_seconds": 21.23563126099998,
+      "pages_per_minute": 2.825439906285819,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 46,
+      "pages": 1,
+      "wall_seconds": 0.6429783730000054,
+      "pages_per_minute": 93.3157358311327,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 47,
+      "pages": 1,
+      "wall_seconds": 6.733338578999792,
+      "pages_per_minute": 8.910884147001077,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 48,
+      "pages": 1,
+      "wall_seconds": 18.581449130000237,
+      "pages_per_minute": 3.229026949417439,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 49,
+      "pages": 1,
+      "wall_seconds": 15.790872432000015,
+      "pages_per_minute": 3.7996633978506917,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 50,
+      "pages": 1,
+      "wall_seconds": 16.35808239700009,
+      "pages_per_minute": 3.6679115891361085,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 51,
+      "pages": 1,
+      "wall_seconds": 0.5192194169999311,
+      "pages_per_minute": 115.55808206611803,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 52,
+      "pages": 1,
+      "wall_seconds": 15.755266924999887,
+      "pages_per_minute": 3.808250300399175,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 53,
+      "pages": 1,
+      "wall_seconds": 24.4350540180003,
+      "pages_per_minute": 2.455488739898036,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 54,
+      "pages": 1,
+      "wall_seconds": 6.900959489999877,
+      "pages_per_minute": 8.69444315488962,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 55,
+      "pages": 1,
+      "wall_seconds": 33.58651279800006,
+      "pages_per_minute": 1.7864313678785002,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 56,
+      "pages": 1,
+      "wall_seconds": 0.8802145190002193,
+      "pages_per_minute": 68.16520144220098,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 57,
+      "pages": 1,
+      "wall_seconds": 26.76789705100009,
+      "pages_per_minute": 2.2414909877187497,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 58,
+      "pages": 1,
+      "wall_seconds": 1.4454076849997364,
+      "pages_per_minute": 41.510779707810215,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 59,
+      "pages": 1,
+      "wall_seconds": 6.302296851999927,
+      "pages_per_minute": 9.520338601784525,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 60,
+      "pages": 1,
+      "wall_seconds": 21.293172859999686,
+      "pages_per_minute": 2.817804579641255,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 61,
+      "pages": 1,
+      "wall_seconds": 1.4548311399998965,
+      "pages_per_minute": 41.24189973002933,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 62,
+      "pages": 1,
+      "wall_seconds": 0.7774512590003724,
+      "pages_per_minute": 77.17525607604844,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 63,
+      "pages": 1,
+      "wall_seconds": 5.700822044999768,
+      "pages_per_minute": 10.52479791973623,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 64,
+      "pages": 1,
+      "wall_seconds": 21.49552710099988,
+      "pages_per_minute": 2.791278377035428,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 65,
+      "pages": 1,
+      "wall_seconds": 21.56924128599985,
+      "pages_per_minute": 2.781739014572792,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 66,
+      "pages": 1,
+      "wall_seconds": 12.554313531999924,
+      "pages_per_minute": 4.779233834415947,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 67,
+      "pages": 1,
+      "wall_seconds": 20.479979132999688,
+      "pages_per_minute": 2.9296904850513803,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 68,
+      "pages": 1,
+      "wall_seconds": 33.76893291499982,
+      "pages_per_minute": 1.77678104756898,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 69,
+      "pages": 1,
+      "wall_seconds": 19.260341616000005,
+      "pages_per_minute": 3.1152095428129183,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 70,
+      "pages": 1,
+      "wall_seconds": 33.292152433999945,
+      "pages_per_minute": 1.8022265192659757,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 71,
+      "pages": 1,
+      "wall_seconds": 10.396576328000265,
+      "pages_per_minute": 5.7711306209917215,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 72,
+      "pages": 1,
+      "wall_seconds": 21.254164440000295,
+      "pages_per_minute": 2.822976182826558,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 73,
+      "pages": 1,
+      "wall_seconds": 19.948311626000304,
+      "pages_per_minute": 3.007773345679891,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 74,
+      "pages": 1,
+      "wall_seconds": 5.427482237999357,
+      "pages_per_minute": 11.05484962805089,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 75,
+      "pages": 1,
+      "wall_seconds": 22.975910296999245,
+      "pages_per_minute": 2.611430808373075,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 76,
+      "pages": 1,
+      "wall_seconds": 10.077710056999422,
+      "pages_per_minute": 5.953733503012155,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 77,
+      "pages": 1,
+      "wall_seconds": 23.090393264999875,
+      "pages_per_minute": 2.5984832441527637,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 78,
+      "pages": 1,
+      "wall_seconds": 12.65016562100027,
+      "pages_per_minute": 4.743020905623187,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 79,
+      "pages": 1,
+      "wall_seconds": 18.117837941999824,
+      "pages_per_minute": 3.311653420903558,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 80,
+      "pages": 1,
+      "wall_seconds": 6.808315910000601,
+      "pages_per_minute": 8.812752051042047,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 81,
+      "pages": 1,
+      "wall_seconds": 10.247883162000107,
+      "pages_per_minute": 5.854867688429972,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 82,
+      "pages": 1,
+      "wall_seconds": 0.6530011330005436,
+      "pages_per_minute": 91.88345466461855,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 83,
+      "pages": 1,
+      "wall_seconds": 0.9421631440000056,
+      "pages_per_minute": 63.68323828213732,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 84,
+      "pages": 1,
+      "wall_seconds": 12.03359528799956,
+      "pages_per_minute": 4.986041042932089,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 85,
+      "pages": 1,
+      "wall_seconds": 20.506006166999214,
+      "pages_per_minute": 2.925972006024234,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 86,
+      "pages": 1,
+      "wall_seconds": 5.9709494959997755,
+      "pages_per_minute": 10.048653072714293,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 87,
+      "pages": 1,
+      "wall_seconds": 5.943325872999594,
+      "pages_per_minute": 10.095357596422359,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 88,
+      "pages": 1,
+      "wall_seconds": 2.093927203000021,
+      "pages_per_minute": 28.654291282923552,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 89,
+      "pages": 1,
+      "wall_seconds": 6.485202831999231,
+      "pages_per_minute": 9.251830907114966,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 90,
+      "pages": 1,
+      "wall_seconds": 2.144804866999948,
+      "pages_per_minute": 27.97457284956891,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 91,
+      "pages": 1,
+      "wall_seconds": 6.032958569999209,
+      "pages_per_minute": 9.945369142491536,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 92,
+      "pages": 1,
+      "wall_seconds": 2.077524639999865,
+      "pages_per_minute": 28.880523891164966,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 93,
+      "pages": 1,
+      "wall_seconds": 0.7669042520001312,
+      "pages_per_minute": 78.23662451149082,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 94,
+      "pages": 1,
+      "wall_seconds": 0.7997013880003578,
+      "pages_per_minute": 75.02800532837534,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 95,
+      "pages": 1,
+      "wall_seconds": 1.5213427569997293,
+      "pages_per_minute": 39.43884422096123,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 96,
+      "pages": 1,
+      "wall_seconds": 7.123193489000187,
+      "pages_per_minute": 8.423188292253116,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 97,
+      "pages": 1,
+      "wall_seconds": 0.8596323550000307,
+      "pages_per_minute": 69.79727979177548,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 98,
+      "pages": 1,
+      "wall_seconds": 0.9170395619994451,
+      "pages_per_minute": 65.42792970586835,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 99,
+      "pages": 1,
+      "wall_seconds": 5.303296800999306,
+      "pages_per_minute": 11.313717155844293,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 100,
+      "pages": 1,
+      "wall_seconds": 5.780902350999895,
+      "pages_per_minute": 10.379002508081127,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 101,
+      "pages": 1,
+      "wall_seconds": 5.328750953999588,
+      "pages_per_minute": 11.25967426850113,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 102,
+      "pages": 1,
+      "wall_seconds": 5.418591345000095,
+      "pages_per_minute": 11.072988564705822,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 103,
+      "pages": 1,
+      "wall_seconds": 3.354141552999863,
+      "pages_per_minute": 17.888332693155853,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 104,
+      "pages": 1,
+      "wall_seconds": 3.3837411430004067,
+      "pages_per_minute": 17.73185284108265,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 105,
+      "pages": 1,
+      "wall_seconds": 4.243213944000672,
+      "pages_per_minute": 14.140225025615747,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 106,
+      "pages": 1,
+      "wall_seconds": 32.14947005199974,
+      "pages_per_minute": 1.86628270708518,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 107,
+      "pages": 1,
+      "wall_seconds": 4.000395467999624,
+      "pages_per_minute": 14.99851714160717,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 108,
+      "pages": 1,
+      "wall_seconds": 3.431023449999884,
+      "pages_per_minute": 17.487493418327414,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 109,
+      "pages": 1,
+      "wall_seconds": 0.8553131449998546,
+      "pages_per_minute": 70.14974614941784,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 110,
+      "pages": 1,
+      "wall_seconds": 0.717855032999978,
+      "pages_per_minute": 83.58233520945703,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 111,
+      "pages": 1,
+      "wall_seconds": 0.7755750690002969,
+      "pages_per_minute": 77.3619503748863,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 112,
+      "pages": 1,
+      "wall_seconds": 0.4812367810000069,
+      "pages_per_minute": 124.67874935768708,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 113,
+      "pages": 1,
+      "wall_seconds": 0.4737938700000086,
+      "pages_per_minute": 126.63734969808475,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 114,
+      "pages": 1,
+      "wall_seconds": 0.328332256000067,
+      "pages_per_minute": 182.74171636669092,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 115,
+      "pages": 1,
+      "wall_seconds": 0.3921733150000364,
+      "pages_per_minute": 152.99358142201604,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 116,
+      "pages": 1,
+      "wall_seconds": 0.41926532599973143,
+      "pages_per_minute": 143.10746985081812,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 117,
+      "pages": 1,
+      "wall_seconds": 0.3575631200001226,
+      "pages_per_minute": 167.8025407093982,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 118,
+      "pages": 1,
+      "wall_seconds": 0.32298587299919745,
+      "pages_per_minute": 185.7666387784988,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 119,
+      "pages": 1,
+      "wall_seconds": 0.35925273799966817,
+      "pages_per_minute": 167.0133408977816,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 120,
+      "pages": 1,
+      "wall_seconds": 0.3535539790000257,
+      "pages_per_minute": 169.70534505000052,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 121,
+      "pages": 1,
+      "wall_seconds": 0.39041549500052497,
+      "pages_per_minute": 153.6824249250643,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 122,
+      "pages": 1,
+      "wall_seconds": 0.5147893989997101,
+      "pages_per_minute": 116.55251665357972,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 123,
+      "pages": 1,
+      "wall_seconds": 0.5916250689997469,
+      "pages_per_minute": 101.41558081952351,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 124,
+      "pages": 1,
+      "wall_seconds": 31.78321591799977,
+      "pages_per_minute": 1.887788830268124,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 125,
+      "pages": 1,
+      "wall_seconds": 1.9340737410002475,
+      "pages_per_minute": 31.022602048756276,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 126,
+      "pages": 1,
+      "wall_seconds": 32.027876482000465,
+      "pages_per_minute": 1.8733680340537016,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 127,
+      "pages": 1,
+      "wall_seconds": 2.0714592250005808,
+      "pages_per_minute": 28.965088607999597,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 128,
+      "pages": 1,
+      "wall_seconds": 0.3046196470004361,
+      "pages_per_minute": 196.9669408746774,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 129,
+      "pages": 1,
+      "wall_seconds": 0.3329599930002587,
+      "pages_per_minute": 180.2018298335121,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 130,
+      "pages": 1,
+      "wall_seconds": 2.3740124490004746,
+      "pages_per_minute": 25.273666962134794,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 131,
+      "pages": 1,
+      "wall_seconds": 2.8313629330004915,
+      "pages_per_minute": 21.19120770448738,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 132,
+      "pages": 1,
+      "wall_seconds": 0.1832316729996819,
+      "pages_per_minute": 327.4543042572348,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 133,
+      "pages": 1,
+      "wall_seconds": 0.1769319410004755,
+      "pages_per_minute": 339.1134447557931,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 134,
+      "pages": 1,
+      "wall_seconds": 0.1828153119995477,
+      "pages_per_minute": 328.2000798715834,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 135,
+      "pages": 1,
+      "wall_seconds": 0.6437511569993148,
+      "pages_per_minute": 93.20371598192538,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 136,
+      "pages": 1,
+      "wall_seconds": 0.6761001759996361,
+      "pages_per_minute": 88.74424549777413,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 137,
+      "pages": 1,
+      "wall_seconds": 0.6814329130002079,
+      "pages_per_minute": 88.04975347585199,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 138,
+      "pages": 1,
+      "wall_seconds": 0.4805569469999682,
+      "pages_per_minute": 124.85512981254223,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 139,
+      "pages": 1,
+      "wall_seconds": 1.019907802000489,
+      "pages_per_minute": 58.82884696274853,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 140,
+      "pages": 1,
+      "wall_seconds": 0.43950437100011186,
+      "pages_per_minute": 136.517413611763,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 141,
+      "pages": 1,
+      "wall_seconds": 0.4068209630004276,
+      "pages_per_minute": 147.48502524914613,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 142,
+      "pages": 1,
+      "wall_seconds": 0.4296066110000538,
+      "pages_per_minute": 139.66265523784614,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 143,
+      "pages": 1,
+      "wall_seconds": 1.0251288449999265,
+      "pages_per_minute": 58.52922809913158,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 144,
+      "pages": 1,
+      "wall_seconds": 0.24098386300011043,
+      "pages_per_minute": 248.9793268853546,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 145,
+      "pages": 1,
+      "wall_seconds": 0.2594601819992022,
+      "pages_per_minute": 231.24935601943153,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 146,
+      "pages": 1,
+      "wall_seconds": 0.25718384700030583,
+      "pages_per_minute": 233.2961447611002,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 147,
+      "pages": 1,
+      "wall_seconds": 0.226623610000388,
+      "pages_per_minute": 264.7561743451941,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 148,
+      "pages": 1,
+      "wall_seconds": 0.32925331099977484,
+      "pages_per_minute": 182.2305136972215,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 149,
+      "pages": 1,
+      "wall_seconds": 0.5719779910004945,
+      "pages_per_minute": 104.89914112787625,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 150,
+      "pages": 1,
+      "wall_seconds": 0.6322004789999482,
+      "pages_per_minute": 94.90660319478326,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 151,
+      "pages": 1,
+      "wall_seconds": 0.6360086909999154,
+      "pages_per_minute": 94.33833349929488,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 152,
+      "pages": 1,
+      "wall_seconds": 0.7410836620001646,
+      "pages_per_minute": 80.96251891191561,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 153,
+      "pages": 1,
+      "wall_seconds": 0.25508706199980224,
+      "pages_per_minute": 235.21381104011664,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 154,
+      "pages": 1,
+      "wall_seconds": 0.18943692199991347,
+      "pages_per_minute": 316.72811913628647,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 155,
+      "pages": 1,
+      "wall_seconds": 0.20968267199987167,
+      "pages_per_minute": 286.14667787158265,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 156,
+      "pages": 1,
+      "wall_seconds": 0.2219474759995137,
+      "pages_per_minute": 270.33422988838794,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 157,
+      "pages": 1,
+      "wall_seconds": 2.414069892000043,
+      "pages_per_minute": 24.854292826745933,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 158,
+      "pages": 1,
+      "wall_seconds": 1.249126828000044,
+      "pages_per_minute": 48.03355324300014,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 159,
+      "pages": 1,
+      "wall_seconds": 0.3920799219995388,
+      "pages_per_minute": 153.03002432261903,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 160,
+      "pages": 1,
+      "wall_seconds": 0.22083026799919026,
+      "pages_per_minute": 271.7018846357602,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 161,
+      "pages": 1,
+      "wall_seconds": 0.45378877599978296,
+      "pages_per_minute": 132.2201058583007,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 162,
+      "pages": 1,
+      "wall_seconds": 0.3575900289997662,
+      "pages_per_minute": 167.78991340398707,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 163,
+      "pages": 1,
+      "wall_seconds": 0.4162244079998345,
+      "pages_per_minute": 144.1530070000697,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 164,
+      "pages": 1,
+      "wall_seconds": 0.7779593240002214,
+      "pages_per_minute": 77.124854923627,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 165,
+      "pages": 1,
+      "wall_seconds": 0.8051665109996975,
+      "pages_per_minute": 74.51874758862462,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 166,
+      "pages": 1,
+      "wall_seconds": 0.7306538610000644,
+      "pages_per_minute": 82.11822752551596,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 167,
+      "pages": 1,
+      "wall_seconds": 0.6030280229997516,
+      "pages_per_minute": 99.49786363414943,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 168,
+      "pages": 1,
+      "wall_seconds": 0.6330893410004137,
+      "pages_per_minute": 94.77335363945227,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 169,
+      "pages": 1,
+      "wall_seconds": 0.5053631250002582,
+      "pages_per_minute": 118.72650977447029,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 170,
+      "pages": 1,
+      "wall_seconds": 0.3100101279997034,
+      "pages_per_minute": 193.5420638904333,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 171,
+      "pages": 1,
+      "wall_seconds": 0.3071270359996561,
+      "pages_per_minute": 195.35890028277157,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 172,
+      "pages": 1,
+      "wall_seconds": 0.3279086479997204,
+      "pages_per_minute": 182.977790814627,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 173,
+      "pages": 1,
+      "wall_seconds": 0.3176568299995779,
+      "pages_per_minute": 188.88307863577097,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 174,
+      "pages": 1,
+      "wall_seconds": 0.05053782899994985,
+      "pages_per_minute": 1187.2294712157013,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 175,
+      "pages": 1,
+      "wall_seconds": 0.06544301200028713,
+      "pages_per_minute": 916.8282168879506,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch": 176,
+      "pages": 1,
+      "wall_seconds": 0.06497321499955433,
+      "pages_per_minute": 923.4574585913836,
+      "telemetry": {
+        "samples": 0
+      }
+    }
+  ],
+  "overall_telemetry": {
+    "samples": 0
+  }
+}

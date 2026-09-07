@@ -1,0 +1,15 @@
+﻿source_dataset,samples_used,split,declared_license_note,redistribution_classification,raw_images_in_public_package,ground_truth_in_public_package,license_evidence
+MohamedRashad/arabic-img2md,26,train,gpl-3.0,ATTRIBUTION_REQUIRED_COPYLEFT,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+ahmedheakl/arocrbench_doclaynet,4,train,unspecified,UNKNOWN,NO,NO,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+ahmedheakl/arocrbench_hindawi,15,train,unspecified,UNKNOWN,NO,NO,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+ahmedheakl/arocrbench_historicalbooks,11,train,unspecified,UNKNOWN,NO,NO,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+ahmedheakl/arocrbench_historyar,7,train,unspecified,UNKNOWN,NO,NO,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+ahmedheakl/arocrbench_khattparagraph,8,train,unspecified,UNKNOWN,NO,NO,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+ahmedheakl/arocrbench_tables,10,train,unspecified,UNKNOWN,NO,NO,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+calfa-ai/RASAM-1,11,train,apache-2.0,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+calfa-ai/RASAM-2,11,train,apache-2.0,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+calfa-ai/baybars,7,train,etalab-2.0,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+calfa-ai/iskandar,9,train,etalab-2.0,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+calfa-ai/tarima,15,train,apache-2.0,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+craneset/arabic-ocr,11,train,mit,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file
+mohres/The_Arabic_E-Book_Corpus,32,train,cc-by-4.0,ATTRIBUTION_REQUIRED,NO,YES,license_or_permission_note recorded per-sample in benchmark_manifest.jsonl at ingestion; no local LICENSE file

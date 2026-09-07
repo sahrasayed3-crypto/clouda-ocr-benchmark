@@ -1,0 +1,25 @@
+{
+  "samples": 177,
+  "successful": 177,
+  "failures": 0,
+  "mean_metrics": {
+    "strict_cer": 2.0079401667932824,
+    "normalized_arabic_cer": 1.28656702627353,
+    "wer": 1.5295432343285742,
+    "extra_text_rate": 1.6377193599509854,
+    "missing_text_rate": 0.08585926985112786
+  },
+  "mean_timings_seconds": {
+    "preprocessing_time": 0.15422714038418311,
+    "inference_time": 47.93276006779102,
+    "postprocessing_time": 0.0007526262937160341,
+    "total_time": 48.08773983446892
+  },
+  "hardware": [
+    {
+      "gpu_model": "NVIDIA L4",
+      "gpu_vram_gb": 22.494
+    }
+  ],
+  "speed_comparison_warning": "Do not compare timing across different GPU models."
+}

@@ -1,0 +1,315 @@
+{
+  "rank": 7,
+  "ranked_models": 7,
+  "successful": 169,
+  "failures": 8,
+  "metrics": {
+    "strict_cer": 20.676199710647662,
+    "normalized_arabic_cer": 20.377487907975862,
+    "wer": 38.88446612936381,
+    "extra_text_rate": 20.48243522140939,
+    "missing_text_rate": 0.07740465736117497
+  },
+  "normalized_wer": null,
+  "normalized_wer_note": "Not defined by the canonical evaluator; not added post hoc.",
+  "median_metrics": {
+    "strict_cer": 0.21212121212121213,
+    "normalized_arabic_cer": 0.15625,
+    "wer": 0.5571428571428572
+  },
+  "bucket_breakdown": [
+    {
+      "category": "faded",
+      "samples": 9,
+      "strict_cer": 0.20604684663241868,
+      "normalized_arabic_cer": 0.17264266588898092,
+      "wer": 0.4245925247260031
+    },
+    {
+      "category": "bleedthrough",
+      "samples": 9,
+      "strict_cer": 0.2664178515002299,
+      "normalized_arabic_cer": 0.1952612980210594,
+      "wer": 0.6243489708065071
+    },
+    {
+      "category": "shadow",
+      "samples": 8,
+      "strict_cer": 0.2754403177609344,
+      "normalized_arabic_cer": 0.24607040222082108,
+      "wer": 0.44264107358810845
+    },
+    {
+      "category": "combined",
+      "samples": 35,
+      "strict_cer": 0.3331244596527749,
+      "normalized_arabic_cer": 0.24666387759587657,
+      "wer": 0.6518473486393603
+    },
+    {
+      "category": "perspective",
+      "samples": 12,
+      "strict_cer": 0.40478298162350157,
+      "normalized_arabic_cer": 0.2910041441592406,
+      "wer": 0.563202811922146
+    },
+    {
+      "category": "contrast",
+      "samples": 12,
+      "strict_cer": 0.3941641089435106,
+      "normalized_arabic_cer": 0.30537232316422597,
+      "wer": 0.7413430322290252
+    },
+    {
+      "category": "skew",
+      "samples": 11,
+      "strict_cer": 0.5208238587650907,
+      "normalized_arabic_cer": 0.3538080280190746,
+      "wer": 0.7097434889213337
+    },
+    {
+      "category": "noise",
+      "samples": 20,
+      "strict_cer": 25.873530408590504,
+      "normalized_arabic_cer": 25.800896605374287,
+      "wer": 77.16054405715617
+    },
+    {
+      "category": "blur",
+      "samples": 21,
+      "strict_cer": 34.78301800833718,
+      "normalized_arabic_cer": 32.96646905104548,
+      "wer": 39.92914739171236
+    },
+    {
+      "category": "low_resolution",
+      "samples": 11,
+      "strict_cer": 59.16229502907822,
+      "normalized_arabic_cer": 59.1322411805171,
+      "wer": 156.2864774790689
+    },
+    {
+      "category": "jpeg",
+      "samples": 21,
+      "strict_cer": 74.38795385649307,
+      "normalized_arabic_cer": 74.28884194085181,
+      "wer": 114.82583616499137
+    }
+  ],
+  "severity_breakdown": [
+    {
+      "category": "combined",
+      "samples": 35,
+      "strict_cer": 0.3331244596527749,
+      "normalized_arabic_cer": 0.24666387759587657,
+      "wer": 0.6518473486393603
+    },
+    {
+      "category": "medium",
+      "samples": 47,
+      "strict_cer": 14.625244943462654,
+      "normalized_arabic_cer": 14.534226755906406,
+      "wer": 37.74090792984438
+    },
+    {
+      "category": "heavy",
+      "samples": 41,
+      "strict_cer": 29.837085891131004,
+      "normalized_arabic_cer": 28.867483463552144,
+      "wer": 57.275970849590344
+    },
+    {
+      "category": "light",
+      "samples": 46,
+      "strict_cer": 34.171986111575904,
+      "normalized_arabic_cer": 34.0975378521484,
+      "wer": 52.750492198352525
+    }
+  ],
+  "source_dataset_breakdown": [
+    {
+      "category": "craneset/arabic-ocr",
+      "samples": 11,
+      "strict_cer": 0.019492317442574358,
+      "normalized_arabic_cer": 0.003010614450607799,
+      "wer": 0.08503701531040955
+    },
+    {
+      "category": "mohres/The_Arabic_E-Book_Corpus",
+      "samples": 32,
+      "strict_cer": 0.12266490875323481,
+      "normalized_arabic_cer": 0.04367129447342606,
+      "wer": 0.2806805821187525
+    },
+    {
+      "category": "ahmedheakl/arocrbench_hindawi",
+      "samples": 15,
+      "strict_cer": 0.15922583597487447,
+      "normalized_arabic_cer": 0.05940291702379039,
+      "wer": 0.35158442669747114
+    },
+    {
+      "category": "calfa-ai/iskandar",
+      "samples": 9,
+      "strict_cer": 0.4828506698187549,
+      "normalized_arabic_cer": 0.28217191903407196,
+      "wer": 1.6648709315375982
+    },
+    {
+      "category": "ahmedheakl/arocrbench_khattparagraph",
+      "samples": 8,
+      "strict_cer": 0.32511437572981955,
+      "normalized_arabic_cer": 0.3040093024258417,
+      "wer": 0.8558870374908111
+    },
+    {
+      "category": "ahmedheakl/arocrbench_doclaynet",
+      "samples": 4,
+      "strict_cer": 0.37017434620174344,
+      "normalized_arabic_cer": 0.34940138626339,
+      "wer": 0.37072243346007605
+    },
+    {
+      "category": "calfa-ai/baybars",
+      "samples": 6,
+      "strict_cer": 0.420654090943946,
+      "normalized_arabic_cer": 0.38978989341308184,
+      "wer": 0.7333333333333334
+    },
+    {
+      "category": "calfa-ai/RASAM-2",
+      "samples": 8,
+      "strict_cer": 1.1409962365516593,
+      "normalized_arabic_cer": 0.45308850427481595,
+      "wer": 1.0367324561403508
+    },
+    {
+      "category": "ahmedheakl/arocrbench_tables",
+      "samples": 10,
+      "strict_cer": 0.9301420770819849,
+      "normalized_arabic_cer": 0.9035672959488874,
+      "wer": 0.9405358343427336
+    },
+    {
+      "category": "MohamedRashad/arabic-img2md",
+      "samples": 26,
+      "strict_cer": 0.9462589460288,
+      "normalized_arabic_cer": 0.9615642795382038,
+      "wer": 1.4534552533852418
+    },
+    {
+      "category": "ahmedheakl/arocrbench_historyar",
+      "samples": 7,
+      "strict_cer": 1.072449742823858,
+      "normalized_arabic_cer": 1.0435340542757423,
+      "wer": 1.4261904761904762
+    },
+    {
+      "category": "ahmedheakl/arocrbench_historicalbooks",
+      "samples": 11,
+      "strict_cer": 8.68175859346823,
+      "normalized_arabic_cer": 5.382889085149918,
+      "wer": 17.253803489017027
+    },
+    {
+      "category": "calfa-ai/tarima",
+      "samples": 14,
+      "strict_cer": 126.44491798323335,
+      "normalized_arabic_cer": 126.44120230595203,
+      "wer": 276.10658118510565
+    },
+    {
+      "category": "calfa-ai/RASAM-1",
+      "samples": 8,
+      "strict_cer": 195.0663762837519,
+      "normalized_arabic_cer": 194.801430631578,
+      "wer": 300.97670454545454
+    }
+  ],
+  "failures_detail": [
+    {
+      "sample_id": "dist_d81844ae32aab663",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000070",
+      "distortion": "gaussian_blur"
+    },
+    {
+      "sample_id": "dist_8bcaa349fa14f63a",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000070",
+      "distortion": "jpeg_compression"
+    },
+    {
+      "sample_id": "dist_34b97e5a4f2bf1b0",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000070",
+      "distortion": "gaussian_noise"
+    },
+    {
+      "sample_id": "dist_48dc8a47e830a050",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000062",
+      "distortion": "gaussian_noise"
+    },
+    {
+      "sample_id": "dist_230e8b6d9ab74c61",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000062",
+      "distortion": "rotation"
+    },
+    {
+      "sample_id": "dist_208318d9d5970cf9",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000075",
+      "distortion": "low_resolution"
+    },
+    {
+      "sample_id": "dist_7ffbb7c9291660a0",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000062",
+      "distortion": "uneven_lighting"
+    },
+    {
+      "sample_id": "dist_48ca82ad05989502",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000053",
+      "distortion": null
+    }
+  ],
+  "strongest_bucket": {
+    "category": "faded",
+    "samples": 9,
+    "strict_cer": 0.20604684663241868,
+    "normalized_arabic_cer": 0.17264266588898092,
+    "wer": 0.4245925247260031
+  },
+  "weakest_bucket": {
+    "category": "jpeg",
+    "samples": 21,
+    "strict_cer": 74.38795385649307,
+    "normalized_arabic_cer": 74.28884194085181,
+    "wer": 114.82583616499137
+  },
+  "strongest_source_dataset": {
+    "category": "craneset/arabic-ocr",
+    "samples": 11,
+    "strict_cer": 0.019492317442574358,
+    "normalized_arabic_cer": 0.003010614450607799,
+    "wer": 0.08503701531040955
+  },
+  "weakest_source_dataset": {
+    "category": "calfa-ai/RASAM-1",
+    "samples": 8,
+    "strict_cer": 195.0663762837519,
+    "normalized_arabic_cer": 194.801430631578,
+    "wer": 300.97670454545454
+  }
+}

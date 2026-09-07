@@ -1,0 +1,102 @@
+{
+  "status": "complete_with_failures",
+  "updated_at": "2026-08-31T15:58:18.381851+00:00",
+  "benchmark_samples": 177,
+  "starting_rows": 30,
+  "starting_valid": 28,
+  "starting_invalid": 2,
+  "new_pages_attempted": 149,
+  "new_successful": 141,
+  "final_statuses": 177,
+  "successful": 169,
+  "failed": 8,
+  "failures": [
+    {
+      "sample_id": "dist_d81844ae32aab663",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000070",
+      "distortion": "gaussian_blur"
+    },
+    {
+      "sample_id": "dist_8bcaa349fa14f63a",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000070",
+      "distortion": "jpeg_compression"
+    },
+    {
+      "sample_id": "dist_34b97e5a4f2bf1b0",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000070",
+      "distortion": "gaussian_noise"
+    },
+    {
+      "sample_id": "dist_48dc8a47e830a050",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 4,
+      "source_benchmark_id": "arabic_ocr_000062",
+      "distortion": "gaussian_noise"
+    },
+    {
+      "sample_id": "dist_230e8b6d9ab74c61",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000062",
+      "distortion": "rotation"
+    },
+    {
+      "sample_id": "dist_208318d9d5970cf9",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000075",
+      "distortion": "low_resolution"
+    },
+    {
+      "sample_id": "dist_7ffbb7c9291660a0",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000062",
+      "distortion": "uneven_lighting"
+    },
+    {
+      "sample_id": "dist_48ca82ad05989502",
+      "reason": "DeterministicEmptyOutput: empty OCR text after repeated identical-setting retries",
+      "attempts": 3,
+      "source_benchmark_id": "arabic_ocr_000053",
+      "distortion": null
+    }
+  ],
+  "attempt_rows": 197,
+  "retry_attempts": 20,
+  "aggregate_inference_seconds_all_attempts": 4306.596020139996,
+  "aggregate_inference_seconds_new_attempts": 2837.4668112709983,
+  "gpu_wall_start_utc": "2026-08-31T15:15:30Z",
+  "gpu_wall_end_utc": "2026-08-31T15:54:09Z",
+  "gpu_wall_seconds": 2319,
+  "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+  "runtime": {
+    "python": "3.12.13",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.4",
+    "flash_attention": "2.8.3",
+    "qwen_vl_utils": "0.0.14"
+  },
+  "configuration": {
+    "dtype": "bfloat16",
+    "attention": "flash_attention_2",
+    "batch_size_per_worker": 1,
+    "workers": 3,
+    "seed": 20260825,
+    "do_sample": false,
+    "max_new_tokens": 24000,
+    "preprocessing": "native Dots AutoProcessor and Qwen vision utility; local remote-code modules"
+  },
+  "configuration_note": "Recovered pre-partial working environment used; later lock-matching Transformers 4.51.0 environment is incompatible with the model processor constructor and failed before weight loading.",
+  "source_partial": "../dots_mocr_native_fa2_96gb_20260827/results.jsonl",
+  "source_partial_sha256": "fc5bf552bec558f5f6c996886be4abf5283f181f461304828f1a4ccf422457f9",
+  "manifest_sha256": "2a499ed0268a5c583a1b174ef241e05affb9c4ba757593eb9ee3fc6f3e4fb893",
+  "results_sha256": "9abe67bde266e599d961a4b04088323dbeac1ee2d6556a00744d9797484ed54f",
+  "attempts_sha256": "8a6e2e3048282be45544e2268d241197f603abc3b8f246ee2e1b8a1b020080bf"
+}

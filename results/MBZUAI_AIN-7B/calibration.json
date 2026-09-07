@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "batch_size": 1,
+      "pages": 1,
+      "wall_seconds": 29.102237638999668,
+      "pages_per_minute": 2.0616971362914893,
+      "stable": true,
+      "reference_output_identical": true,
+      "errors": [],
+      "peak_model_vram_bytes": 27817605632,
+      "telemetry": {
+        "samples": 0
+      }
+    },
+    {
+      "batch_size": 2,
+      "pages": 2,
+      "wall_seconds": 45.751401777999945,
+      "pages_per_minute": 2.622870455036053,
+      "stable": true,
+      "reference_output_identical": false,
+      "errors": [],
+      "peak_model_vram_bytes": 38995894272,
+      "telemetry": {
+        "samples": 0
+      }
+    }
+  ],
+  "selected_batch_size": 1
+}

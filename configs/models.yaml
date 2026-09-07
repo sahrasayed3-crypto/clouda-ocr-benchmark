@@ -1,0 +1,76 @@
+models:
+  qari:
+    environment: modern_vlm
+    paths: {adapter: <LOCAL_MODEL_CACHE>/Qari-OCR-0.4.0, base: <LOCAL_MODEL_CACHE>/Qwen3-VL-4B-Instruct}
+    dtype: float16
+    attention: sdpa
+    recommended_prompt: "Free OCR."
+    preprocessing: Qari AutoProcessor from local adapter; native Qwen3-VL dynamic image processing, no forced resolution cap
+    generation: {max_new_tokens: 2048, do_sample: false}
+    trust_remote_code: false
+    batching: true
+  qwen3_vl_4b:
+    environment: modern_vlm
+    paths: {model: <LOCAL_MODEL_CACHE>/Qwen3-VL-4B-Instruct}
+    dtype: bfloat16
+    attention: sdpa
+    preprocessing: native Qwen3-VL AutoProcessor dynamic resolution
+    generation: {max_new_tokens: 2048, do_sample: false}
+    trust_remote_code: false
+    batching: true
+  arabic_nougat:
+    environment: legacy_ocr
+    paths: {model: <LOCAL_MODEL_CACHE>/Arabic-Nougat-Large}
+    dtype: bfloat16
+    attention: eager
+    preprocessing: native NougatProcessor page resize/crop from preprocessor_config.json
+    generation: {max_new_tokens: 2048, do_sample: false, repetition_penalty: 1.5}
+    trust_remote_code: false
+    batching: true
+  ain:
+    environment: legacy_ocr
+    paths: {model: <LOCAL_MODEL_CACHE>/AIN-7B}
+    dtype: bfloat16
+    attention: sdpa
+    preprocessing: native Qwen2-VL AutoProcessor; official default 4-16384 visual tokens, no benchmark-side cap
+    generation: {max_new_tokens: 2048, do_sample: false}
+    trust_remote_code: false
+    batching: true
+  paddleocr_vl:
+    environment: modern_vlm
+    paths: {model: <LOCAL_MODEL_CACHE>/PaddleOCR-VL-1.6}
+    dtype: bfloat16
+    attention: sdpa
+    required_native_prompt: "OCR:"
+    preprocessing: native local AutoProcessor; official OCR max_pixels 1280x28x28 and shortest_edge from image processor
+    generation: {max_new_tokens: 512, do_sample: false}
+    trust_remote_code: true
+    batching: false
+  hunyuanocr:
+    environment: modern_vlm
+    paths: {model: <LOCAL_MODEL_CACHE>/HunyuanOCR-1.5, draft: <LOCAL_MODEL_CACHE>/HunyuanOCR-1.5/dflash}
+    dtype: bfloat16
+    attention: sdpa
+    preprocessing: native HunYuan AutoProcessor with use_fast=false; native max image size 2048
+    generation: {max_new_tokens: 8000, do_sample: false, temperature: 0.0, top_p: 1.0, repetition_penalty: 1.08}
+    trust_remote_code: true
+    batching: true
+  deepseek_ocr_2:
+    environment: legacy_ocr
+    paths: {model: <LOCAL_MODEL_CACHE>/DeepSeek-OCR-2}
+    dtype: bfloat16
+    attention: flash_attention_2
+    required_native_prompt: "<image>\nFree OCR."
+    preprocessing: official model.infer dynamic resolution; base_size 1024, image_size 768, crop_mode true
+    generation: {base_size: 1024, image_size: 768, crop_mode: true}
+    trust_remote_code: true
+    batching: false
+  dots_mocr:
+    environment: dots_mocr
+    paths: {model: <LOCAL_MODEL_CACHE>/DotsMOCR}
+    dtype: bfloat16
+    attention: flash_attention_2
+    preprocessing: native Dots AutoProcessor and Qwen vision utility; local remote-code modules
+    generation: {max_new_tokens: 24000, do_sample: false}
+    trust_remote_code: true
+    batching: true

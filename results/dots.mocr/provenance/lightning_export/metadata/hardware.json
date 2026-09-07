@@ -1,0 +1,8 @@
+{
+  "captured_at": "2026-08-31T16:27:52.851484+00:00",
+  "source_environment": "Lightning",
+  "gpu_used": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_vram_gb_recorded": 95.6,
+  "current_nvidia_smi": "NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 580.126.20",
+  "gpu_compute_processes_at_export": []
+}

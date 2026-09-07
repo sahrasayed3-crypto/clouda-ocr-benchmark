@@ -1,0 +1,14 @@
+ocr:
+  text: >-
+    Transcribe all visible text exactly in reading order. Preserve Arabic text,
+    English text, punctuation, and numerals as shown. Do not explain, summarize,
+    translate, infer missing text, or add Markdown. Output only the transcription.
+  purpose: Primary accuracy benchmark; model-native fixed prompts may wrap or replace this instruction only when required by the official interface.
+layout:
+  text: >-
+    Parse all visible document content in reading order. Preserve the original
+    Arabic, English, punctuation, and numerals. Represent headings, paragraphs,
+    lists, tables, and formulas with minimal Markdown or HTML. Do not summarize,
+    translate, explain, or invent missing content.
+  purpose: Optional document-layout evaluation; excluded from primary pure-OCR scores.
+

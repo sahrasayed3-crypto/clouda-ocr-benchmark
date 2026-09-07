@@ -1,0 +1,98 @@
+# =============================================================================
+# Arabic OCR Benchmark - Sample allocation strategy
+# =============================================================================
+# Controls how many benchmark samples are produced and how they are spread
+# across source pages. Distortions are NOT applied to every page: each bucket
+# draws a balanced, deterministic subset of the available source pages.
+#
+# To grow the dataset later, raise `count` values (and/or `pages`) - nothing
+# else needs to change, and previously generated samples are reused as-is by
+# the incremental engine.
+# =============================================================================
+version: 1
+
+# Emit one clean sample per source page (these are the `originals/`).
+clean:
+  enabled: true
+
+# Severity mix applied within each bucket. Values are relative weights; the
+# allocator distributes each bucket's count across severities in these ratios,
+# deterministically and as evenly as rounding allows.
+default_severity_mix:
+  light: 1
+  medium: 1
+  heavy: 1
+
+# -----------------------------------------------------------------------------
+# Buckets of atomic distortions.
+# `distortions` lists which atomic distortions the bucket may draw from; the
+# allocator round-robins across them so each is represented.
+# -----------------------------------------------------------------------------
+buckets:
+
+  blur:
+    count: 22
+    distortions: [gaussian_blur, motion_blur]
+
+  jpeg:
+    count: 22
+    distortions: [jpeg_compression]
+
+  noise:
+    count: 22
+    distortions: [gaussian_noise, salt_pepper_noise]
+
+  skew:
+    count: 12
+    distortions: [rotation, skew]
+
+  perspective:
+    count: 12
+    distortions: [perspective]
+
+  low_resolution:
+    count: 12
+    distortions: [low_resolution]
+
+  contrast:
+    count: 12
+    distortions: [low_contrast, brightness]
+
+  shadow:
+    count: 9
+    distortions: [uneven_lighting, shadow]
+
+  faded:
+    count: 9
+    distortions: [faded_scan, paper_degradation, stains]
+
+  bleedthrough:
+    count: 9
+    distortions: [bleedthrough]
+
+# -----------------------------------------------------------------------------
+# Realistic combined profiles. Each named profile gets `count` samples.
+# -----------------------------------------------------------------------------
+combined:
+  total: 36
+  profiles:
+    old_book_light:     4
+    old_book_medium:    5
+    bad_scan_medium:    5
+    bad_scan_heavy:     4
+    phone_photo_light:  4
+    phone_photo_medium: 5
+    faded_archive:      5
+    compressed_scan:    4
+
+# -----------------------------------------------------------------------------
+# Page-selection policy.
+#   spread   - stride evenly across all source pages so layout variety is
+#              represented in every bucket (deterministic, no clustering)
+#   random   - deterministic RNG choice without replacement
+# -----------------------------------------------------------------------------
+selection:
+  policy: spread
+  # Allow the same source page to appear in different buckets (required, since
+  # total samples > source pages), but never twice within one bucket+severity.
+  allow_cross_bucket_reuse: true

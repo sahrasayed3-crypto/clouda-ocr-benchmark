@@ -1,0 +1,58 @@
+{
+  "repository_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+  "model_name": "dots.mocr",
+  "source_model_path": "<LOCAL_MODEL_CACHE>/DotsMOCR",
+  "weights_included": false,
+  "configuration_files": {
+    "config.json": {
+      "size_bytes": 1474,
+      "sha256": "41d5c9aad72c730bb97062cab7a59cdb1d427eeec0b7a6e2f95e1ee72ad3b498"
+    },
+    "generation_config.json": {
+      "size_bytes": 86,
+      "sha256": "d9ca5bd51bbf3b3b2b418f2b2d296cb4286ef2f02dc76dd7361d82ffd9d4e7ca"
+    },
+    "preprocessor_config.json": {
+      "size_bytes": 432,
+      "sha256": "fec8b3187ab0ae340f6d0b1f6f892a53c63b73b328836c83dd7bff1d5bc4c79a"
+    },
+    "tokenizer_config.json": {
+      "size_bytes": 9310,
+      "sha256": "4f09a26dd6b20c82e9678d96b7363a58a778a948a21261d3315a949d47ed4cf4"
+    },
+    "chat_template.json": {
+      "size_bytes": 1147,
+      "sha256": "c8d629ba2b3133376f1e64b980f82438945741fba5334db768afb281af93c4a9"
+    },
+    "configuration_dots.py": {
+      "size_bytes": 3150,
+      "sha256": "aa85add6cdaedfd947d25b850410de4506fc299dc55140d0cc5352c9737151fe"
+    },
+    "modeling_dots_ocr.py": {
+      "size_bytes": 4981,
+      "sha256": "274b5bfa35f624f15001da70414e733b89f5cb44b5453d80023bff26a68d0135"
+    },
+    "modeling_dots_vision.py": {
+      "size_bytes": 14890,
+      "sha256": "f22d6251a05a03c7510d329ba1be9e959438cd54b32204eb51ccb1b56392a96f"
+    }
+  },
+  "runtime": {
+    "python": "3.12.13",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.4",
+    "flash_attention": "2.8.3",
+    "qwen_vl_utils": "0.0.14"
+  },
+  "inference_configuration": {
+    "dtype": "bfloat16",
+    "attention": "flash_attention_2",
+    "batch_size_per_worker": 1,
+    "workers": 3,
+    "seed": 20260825,
+    "do_sample": false,
+    "max_new_tokens": 24000,
+    "preprocessing": "native Dots AutoProcessor and Qwen vision utility; local remote-code modules"
+  },
+  "configuration_note": "Recovered pre-partial working environment used; later lock-matching Transformers 4.51.0 environment is incompatible with the model processor constructor and failed before weight loading."
+}

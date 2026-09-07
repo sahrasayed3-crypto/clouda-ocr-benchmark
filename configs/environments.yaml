@@ -1,0 +1,47 @@
+environments:
+  modern_vlm:
+    python: "3.12"
+    models: [qari, qwen3_vl_4b, paddleocr_vl, hunyuanocr]
+    cpu_validation_packages:
+      - transformers==5.15.1
+      - accelerate==1.14.0
+      - peft==0.20.0
+      - qwen-vl-utils==0.0.14
+      - safetensors==0.8.0
+      - pillow==12.3.0
+      - pyyaml==6.0.3
+    gpu_runtime: shared torch==2.7.0+cu128 and torchvision==0.22.0+cu128; SDPA is full-quality for these adapters
+  legacy_ocr:
+    python: "3.12"
+    models: [ain, arabic_nougat, deepseek_ocr_2]
+    cpu_validation_packages:
+      - transformers==4.46.3
+      - tokenizers==0.20.3
+      - accelerate==1.2.1
+      - qwen-vl-utils==0.0.8
+      - safetensors==0.4.5
+      - pillow==11.1.0
+      - einops==0.8.0
+      - addict==2.4.0
+      - easydict==1.13
+      - pyyaml==6.0.2
+    gpu_runtime: shared torch==2.6.0+cu118 and torchvision==0.21.0+cu118; official flash-attn==2.7.3 cu11/torch2.6/cp312 wheel installed
+  dots_mocr:
+    python: "3.12"
+    models: [dots_mocr]
+    cpu_validation_packages:
+      - transformers==4.51.0
+      - accelerate==1.7.0
+      - qwen-vl-utils==0.0.11
+      - safetensors==0.5.3
+      - pillow==11.2.1
+      - pyyaml==6.0.2
+    gpu_runtime: shared torch==2.7.0+cu128 and torchvision==0.22.0+cu128; official flash-attn==2.8.0.post2 cu12/torch2.7/cp312 wheel installed
+  paddle_native:
+    python: "3.12"
+    models: []
+    purpose: Optional official PaddleOCR document-parser pipeline; not primary adapter because it would require additional pipeline weights absent locally
+    cpu_validation_packages:
+      - paddlepaddle==3.3.1
+      - paddleocr==3.7.0
+    gpu_runtime: paddlepaddle-gpu>=3.2.1 matching target CUDA; only use after required auxiliary model assets are explicitly approved
