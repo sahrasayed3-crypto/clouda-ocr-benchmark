@@ -123,7 +123,13 @@ CLOUDA_OCR_BENCHMARK_PUBLIC/
 
 ## 14. Citation
 
-Citation information will be added in a future release.
+Version 0.1.0 is archived on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22859930.svg)](https://doi.org/10.5281/zenodo.22859930)
+
+Wahbah, S. K. N. (2026). *Clouda OCR Arabic OCR Benchmark v0.1.0 — 177-Page Reproducible Evaluation* (Version 0.1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.22859930
+
+For this specific release, cite the version DOI above. The all-versions DOI is `10.5281/zenodo.22859929`.
 
 ## 15. Disclaimer
 
