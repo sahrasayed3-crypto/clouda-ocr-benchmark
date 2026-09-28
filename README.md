@@ -1,8 +1,10 @@
 # Clouda OCR Benchmark — Public Release
 
+> **Historical benchmark:** This repository contains Clouda OCR benchmark v0.1.0 (177-page distorted Arabic OCR evaluation). It remains published for reproducibility and citation, but it is no longer the current model-selection benchmark. The current benchmark is v1.0 in [`clouda-ocr-model-selection-benchmark`](https://github.com/sahrasayed3-crypto/clouda-ocr-model-selection-benchmark).
+
 Arabic-first OCR and Document AI benchmark infrastructure from Clouda OCR.
 
-This repository publishes the canonical evaluation state of Clouda OCR's current distorted Arabic OCR benchmark: a 177-page evaluation set, per-model stored OCR outputs, verified metric aggregates, and full provenance for reproducibility.
+This repository publishes the canonical evaluation state of Clouda OCR's historical distorted Arabic OCR benchmark v0.1.0: a 177-page evaluation set, per-model stored OCR outputs, verified metric aggregates, and full provenance for reproducibility.
 
 - Project page: https://cloudaocr.xyz
 - GitHub: https://github.com/sahrasayed3-crypto/clouda-ocr
@@ -39,7 +41,7 @@ Models transcribe **distorted Arabic document page images** (single-image, page-
 
 ## 4. Primary leaderboard
 
-Models with complete **177/177 valid evaluated pairs** only. Results are specific to Clouda OCR's current distorted Arabic benchmark and should not be interpreted as universal OCR performance.
+Models with complete **177/177 valid evaluated pairs** only. Results are specific to Clouda OCR's historical distorted Arabic benchmark v0.1.0 and should not be interpreted as universal OCR performance.
 
 | Rank | Model | Valid pairs | Normalized Arabic CER | CER | WER |
 |---:|---|---:|---:|---:|---:|
@@ -50,7 +52,7 @@ Models with complete **177/177 valid evaluated pairs** only. Results are specifi
 | 5 | DeepSeek-OCR-2 | 177/177 | 1.486473 | 1.727661 | 1.549825 |
 | 6 | Arabic Nougat Large | 177/177 | 2.226341 | 2.391472 | 1.876031 |
 
-HunyuanOCR-1.5 ranked first on Clouda OCR's current 177-page distorted Arabic benchmark among models with complete 177/177 valid coverage, using normalized Arabic CER as the primary metric.
+HunyuanOCR-1.5 ranked first on this historical 177-page distorted Arabic benchmark v0.1.0 among models with complete 177/177 valid coverage, using normalized Arabic CER as the primary metric.
 
 Full details (hardware, runtime, run identifiers): [`RESULTS.md`](RESULTS.md), [`summaries/FINAL_RESULTS.csv`](summaries/FINAL_RESULTS.csv).
 
@@ -133,4 +135,4 @@ For this specific release, cite the version DOI above. The all-versions DOI is `
 
 ## 15. Disclaimer
 
-Results are specific to Clouda OCR's current distorted Arabic benchmark and should not be interpreted as universal OCR performance. Error rates are not capped at 1.0; insertion errors can make edit distance exceed the reference length. No claim of state-of-the-art or universal superiority is made.
+Results are specific to Clouda OCR's historical distorted Arabic benchmark v0.1.0 and should not be interpreted as universal OCR performance. Error rates are not capped at 1.0; insertion errors can make edit distance exceed the reference length. No claim of state-of-the-art or universal superiority is made.
