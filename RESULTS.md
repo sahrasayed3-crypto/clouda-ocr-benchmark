@@ -19,7 +19,7 @@ Primary metric: **Normalized Arabic CER** (lower is better).
 
 Runtime is the mean wall time per page from each stored run (preprocessing + inference + postprocessing). All runs used deterministic decoding (`do_sample=false`), batch size 1, and seed 20260825.
 
-Canonical statement: HunyuanOCR-1.5 ranked first on Clouda OCR's current 177-page distorted Arabic benchmark among models with complete 177/177 valid coverage, using normalized Arabic CER as the primary metric.
+Canonical statement: HunyuanOCR-1.5 ranked first on this historical 177-page distorted Arabic benchmark v0.1.0 among models with complete 177/177 valid coverage, using normalized Arabic CER as the primary metric.
 
 ## B. Additional evaluated run — dots.mocr
 
@@ -60,7 +60,7 @@ The common-subset ordering of the six full-coverage models differs from the prim
 - Aggregates are means over valid evaluated pairs; models with failures (only dots.mocr) have coverage-qualified aggregates that are not directly comparable to 177/177 aggregates. Use the common subset for strict comparison.
 - Structural markup (HTML tables produced by HunyuanOCR-1.5 and DeepSeek-OCR-2 on table-style pages) is counted as extra text by the unchanged evaluation semantics; this is a deliberate, uniformly applied scoring choice and not a model-specific adjustment.
 - dots.mocr's very high aggregate is driven by extreme insertion loops on a minority of distorted pages (median normalized CER 0.15625 over its successful pages); see `results/dots.mocr/dots_mocr_report.json` for per-bucket medians and breakdowns.
-- Results are specific to Clouda OCR's current distorted Arabic benchmark and should not be interpreted as universal OCR performance.
+- Results are specific to Clouda OCR's historical distorted Arabic benchmark v0.1.0 and should not be interpreted as universal OCR performance.
 
 ## F. Hardware comparability caveat
 
